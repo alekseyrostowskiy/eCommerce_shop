@@ -1,0 +1,97 @@
+.sale {
+  display: grid;
+  grid-template: 288px 288px/872px 423px;
+  gap: 24px;
+  &__first {
+    display: flex;
+    width: 872px;
+    height: 600px;
+    align-items: center;
+    border-radius: 10px;
+    background: no-repeat url("../../img/bannar-big.png"), no-repeat;
+    grid-row: 1/3;
+  }
+  &__second {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    border-radius: 10px;
+    background: url("../../img/bg1.png"),
+      lightgray -3px -69.762px / 123.877% 181.944% no-repeat;
+    padding: 32px 235px 120px 32px;
+  }
+  &__summer {
+    color: var(--gray-scale-gray-900, #1a1a1a);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+  }
+  &__discount {
+    color: var(--gray-scale-gray-900, #1a1a1a);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+  }
+  &__only {
+    color: var(--gray-scale-gray-600, #666);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  &__shop {
+    display: flex;
+    gap: 12px;
+  }
+  &__now {
+    color: var(--branding-success, #00b207);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+  }
+  &__third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    border-radius: 10px;
+    background: linear-gradient(
+        0deg,
+        rgba(0, 38, 3, 0.8) 0%,
+        rgba(0, 38, 3, 0.8) 100%
+      ),
+      url("../../img/bg.png"), lightgray 50% / cover no-repeat;
+    padding: 67px 40px 68px 40px;
+  }
+  &__best-deal {
+    color: var(--gray-scale-white, #fff);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+  }
+  &__special-products {
+    width: 330px;
+    color: var(--gray-scale-white, #fff);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+  }
+}
